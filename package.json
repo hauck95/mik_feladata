@@ -1,16 +1,17 @@
 {
-  "name": "mik_feladata",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "@cucumber/cucumber": "^12.1.0",
-    "@playwright/test": "^1.54.1",
-    "@types/node": "^24.1.0"
-  }
+    "name": "polli_cucumber",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "cucumber-js -c cucumber.conf.js"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@cucumber/cucumber": "^11.3.0",
+        "@playwright/test": "^1.54.1"
+    }
 }
