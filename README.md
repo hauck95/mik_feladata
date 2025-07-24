@@ -6,7 +6,7 @@ This project contains system tests for a web application, implemented using Cucu
 ## Running Tests
 
 To run the tests, use the following command:
-'''bash
+'''
 npm test
 '''
 
