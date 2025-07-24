@@ -1,5 +1,6 @@
 import { Given, When, Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
+import { LoginPage } from '../../page_objects/LoginPage.js';
 import { DashBoardPage } from '../../page_objects/DashBoardPage.js';
 
 let contactData;

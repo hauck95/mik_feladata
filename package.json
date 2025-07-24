@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "cucumber-js -c cucumber.conf.js"
+        "test": "cucumber-js"
     },
     "type": "module",
     "keywords": [],

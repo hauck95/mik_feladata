@@ -1,14 +1,14 @@
 export class LoginPage {
   constructor(page) {
     this.page = page;
-    this.usernameInput = page.locator('#username');
-    this.passwordInput = page.locator('#password');
-    this.submitButton = page.locator('#submit');
-    this.errorMessage = page.locator('#error');
+    this.usernameInput = page.locator("#username");
+    this.passwordInput = page.locator("#password");
+    this.submitButton = page.locator("#submit");
+    this.errorMessage = page.locator("#error");
   }
 
   async goto() {
-    await this.page.goto('/');
+    await this.page.goto("/");
   }
 
   async login(username, password) {
