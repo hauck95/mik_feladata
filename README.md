@@ -4,7 +4,7 @@ This project contains system tests for a web application, implemented using Cucu
 
 ## Dependencies
 
-There should not be any dependency, the packages are installed locally.
+There should not be any dependency, the packages are installed into the repo.
 
 ## Running Tests
 
