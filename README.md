@@ -2,6 +2,9 @@
 
 This project contains system tests for a web application, implemented using Cucumber and Playwright.
 
+## Dependencies
+
+There should not be any dependency, the packages are installed locally.
 
 ## Running Tests
 
